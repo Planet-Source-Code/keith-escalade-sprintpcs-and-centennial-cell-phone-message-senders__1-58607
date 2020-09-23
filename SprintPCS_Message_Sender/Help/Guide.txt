@@ -1,0 +1,37 @@
+SprintPCS Message Sender v2.3 Help File
+--------------------------
+This program will send text message to phones only in the U.S.
+This help file will explain how to:
+-Send a text message to a SprintPCS phone
+-Send a text message to a SprintPCS phone with a callback number
+-Get a tracking number
+-Track a message using a tracking number
+-Dock the messaging and tracking window
+-Using the quick send feature
+
+SprintPCS Message Sender is not in any way affiliated with Sprint. This program is for education use only.
+
+
+
+	Sending a text message to a SprintPCS phone
+In order to send a text message to a SprintPCS phone, you must first have the person's number to whom you would like to send the message to. The person's number must be in a 10-digit format.
+Example: 3375551234 where 337 is the area code.
+Enter the number into the 10-Digit PCS Phone Number box, type your message in the Message to Send box, and click Send. Simple as that!
+
+	Send a text message to a SprintPCS phone with a callback number
+The callback number is usually the number sent along with the text message for that person to call you back at. The callback number must also be in a 10-digit format. The number does not have to be a valid phone number. It can be any number you wish. If you enter a callback number, it MUST BE 10 digits long or the message will not send. Look back at how to send a text message, enter your 10-digit callback number, and click send. 
+
+	Get a tracking number
+When you send a message, Sprint will provide you with a tracking number. Tracking numbers are used to track the status of a message sent. When you send a message with this program, if the message is sent successfully, the tracking number for that message will display in the Tracking Number box. All tracking messages, including message data, are saved to the path of the program follow by  \TrackingNumbers.log.
+
+	Track a message using a tracking number
+To track a message, you must first have a valid tracking number. Once you have the tracking number, you can pull up the tracking window by clicking the Track a Message button. Put your tracking number into the Tracking Number box. Click track. If the tracking number is valid, the status of that number will be tracked. You must wait about a minute until you can track a message that you've sent.
+
+	Dock the messaging and tracking window
+On the Tracking window there is a check box next to the X button at the top right. Check the box and the tracking and messaging windows will be docked together.
+
+	Using the quick send feature
+In order to use the quick message feature, you must copy the program to your system32 folder. It should be something like c:/windows/system32. Click Start|Run or press Windows Key + R to bring up the Run dialog. Type in the name of the program in which you saved it to under the system32 directory follow by a space, the phone number you wish you send the message to, another 2 ampersands (&&), the message to send, another 2 ampersands (&&), and the callback number if you wish. The format still applies to the numbers or the message will not be sent.
+Example/s: PCS 3375551234&&hey, call me back&&3375554321
+Example/s: PCS 3375551234&&hey, guess who!
+It is recommended that you name the program something short like PCS.exe
